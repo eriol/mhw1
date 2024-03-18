@@ -1,6 +1,6 @@
 # Mini-homework 1
 
-Primo mini homework per il corso di [Web Programming M-Z](https://perceivelab.github.io/wp-mz-24) @ DIIEI.
+Primo mini homework per il corso di [Web Programming M-Z](https://perceivelab.github.io/wp-mz-24) @ DIEEI.
 
 ## Idea progettuale
 
