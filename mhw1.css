@@ -99,6 +99,24 @@ a.button:hover {
 footer {
   height: 300px;
   width: 100%;
+}
+
+#footer_container {
   display: flex;
   background-color: lightgray;
+
+  height: 100%;
+  padding: 10px 80px;
+}
+#footer_container div {
+  flex-grow: 1;
+}
+
+#footer_container div.social {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer_container .logo {
+  font-size: 3em;
 }
