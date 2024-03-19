@@ -17,9 +17,11 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-
   display: flex;
+}
+
+ul.links {
+  list-style: none;
 }
 
 nav li {
@@ -27,12 +29,12 @@ nav li {
   font-size: 1.1em;
 }
 
-.navlinks a {
+nav .links a {
   color: black;
   text-decoration: none;
 }
 
-.navlinks a:hover {
+.links a:hover {
   text-decoration: underline;
 }
 
@@ -103,11 +105,12 @@ footer {
 
 #footer_container {
   display: flex;
-  background-color: lightgray;
+  background-color: #f9f8f5;
 
   height: 100%;
   padding: 10px 80px;
 }
+
 #footer_container div {
   flex-grow: 1;
 }
@@ -115,6 +118,11 @@ footer {
 #footer_container div.social {
   display: flex;
   flex-direction: column;
+}
+
+#footer_container div.footer_links {
+  display: flex;
+  align-items: center;
 }
 
 #footer_container .logo {
