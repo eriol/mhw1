@@ -41,10 +41,13 @@ nav li {
   align-items: center;
 }
 
-#logo {
-  font-size: 2em;
+.logo {
   font-weight: bold;
   color: darkorange;
+}
+
+nav .logo {
+  font-size: 2em;
 }
 
 .button {
