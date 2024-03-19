@@ -128,3 +128,7 @@ footer {
 #footer_container .logo {
   font-size: 3em;
 }
+
+footer ul.links li {
+  margin: 15px 0px;
+}
