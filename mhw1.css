@@ -41,12 +41,6 @@ nav li {
   align-items: center;
 }
 
-footer {
-  width: 100%;
-  display: flex;
-  background-color: lightgray;
-}
-
 #logo {
   font-size: 2em;
   font-weight: bold;
@@ -62,5 +56,46 @@ footer {
 }
 
 a.button:hover {
+  background-color: lightgray;
+}
+
+#home {
+  display: flex;
+
+  width: 100%;
+  height: 800px;
+}
+
+#home .left_column,
+#home .right_column {
+  flex-grow: 1;
+}
+
+.left_column {
+  background-image: url(ancient-greece-race.webp);
+}
+.center_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 50px;
+  text-align: center;
+  max-width: 350px;
+  min-width: 400px;
+}
+.right_column {
+  background-image: url(ancient-greece-horse-race.webp);
+}
+
+.disclaimer {
+  font-size: 0.8em;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  display: flex;
   background-color: lightgray;
 }
