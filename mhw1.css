@@ -132,3 +132,14 @@ footer {
 footer ul.links li {
   margin: 15px 0px;
 }
+
+#footer_logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer_logo {
+  height: 30px;
+}
