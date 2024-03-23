@@ -29,12 +29,15 @@ nav li {
   font-size: 1.1em;
 }
 
-nav .links a {
-  color: black;
+a {
   text-decoration: none;
 }
 
-.links a:hover {
+nav .links a {
+  color: black;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
