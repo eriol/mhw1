@@ -121,7 +121,7 @@ footer {
 
 #footer_container div.footer_links {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #footer_container .logo {
