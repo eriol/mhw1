@@ -4,6 +4,7 @@
   --footer-color: #525252;
   --hover-register-button-color: #bf3e00;
   --subscription-background-color: #2b2b2b;
+  --who-color: #525252;
 }
 
 body {
@@ -274,11 +275,10 @@ footer ul.links li {
     height: 20px;
   }
 
+  #who,
   #features,
   #subscription {
     width: 100%;
-    height: 50vw;
-    color: white;
 
     display: flex;
     flex-direction: column;
@@ -291,6 +291,26 @@ footer ul.links li {
     padding: 15px 35px;
     border-radius: 50px;
     font-weight: bold;
+  }
+
+  #features,
+  #subscription {
+    height: 50vw;
+    color: white;
+  }
+
+  #who {
+    color: var(--who-color);
+  }
+
+  #who p.description {
+    padding: 10px 80px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #who img {
+    padding: 20px;
   }
 
   #features {
