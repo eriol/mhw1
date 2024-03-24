@@ -3,6 +3,7 @@
   --footer-background-color: #f9f8f5;
   --footer-color: #525252;
   --hover-register-button-color: #bf3e00;
+  --subscription-background-color: #2b2b2b;
 }
 
 body {
@@ -271,6 +272,33 @@ footer ul.links li {
   #overlay .arrow {
     filter: invert(100%);
     height: 20px;
+  }
+
+  #features,
+  #subscription {
+    width: 100%;
+    height: 50vw;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .button-round {
+    border: 2px solid darkgray;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+
+  #features {
+    background-color: var(--primary-color);
+  }
+
+  #subscription {
+    background-color: var(--subscription-background-color);
   }
 
   #footer_container {
