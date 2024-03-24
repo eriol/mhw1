@@ -52,8 +52,15 @@ a:hover {
 }
 
 .logo {
-  font-weight: bold;
   color: var(--primary-color);
+}
+
+.has-primary-color {
+  color: var(--primary-color);
+}
+
+.is-bold {
+  font-weight: bold;
 }
 
 nav .logo {
