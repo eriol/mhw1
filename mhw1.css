@@ -65,6 +65,7 @@ nav .logo {
 
 a.button:hover {
   background-color: lightgray;
+  text-decoration: none;
 }
 
 #home {
