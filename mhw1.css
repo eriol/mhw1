@@ -304,13 +304,23 @@ footer ul.links li {
   }
 
   #who p.description {
-    padding: 10px 80px;
+    padding: 0px 80px;
+    margin: 10px 0px;
     font-size: 1.5em;
     text-align: center;
   }
 
   #who img {
     padding: 20px;
+  }
+
+  #who .wrestling {
+    background-image: url(greek-wrestling-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
   }
 
   #features {
