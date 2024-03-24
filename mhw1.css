@@ -2,6 +2,7 @@
   --primary-color: #fc5200;
   --footer-background-color: #f9f8f5;
   --footer-color: #525252;
+  --hover-register-button-color: #bf3e00;
 }
 
 body {
@@ -78,6 +79,21 @@ nav .logo {
 
 a.button:hover {
   background-color: lightgray;
+  text-decoration: none;
+}
+
+.account_register_email {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+}
+
+a.account_register_email:hover {
+  background-color: var(--hover-register-button-color);
+  border-color: var(--hover-register-button-color);
   text-decoration: none;
 }
 
