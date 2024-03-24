@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #fc5200;
+  --footer-color: #f9f8f5;
+}
+
 body {
   margin: 0;
   font-family: "Helvetica", sans-serif;
@@ -48,7 +53,7 @@ a:hover {
 
 .logo {
   font-weight: bold;
-  color: darkorange;
+  color: var(--primary-color);
 }
 
 nav .logo {
@@ -108,7 +113,7 @@ footer {
 
 #footer_container {
   display: flex;
-  background-color: #f9f8f5;
+  background-color: var(--footer-color);
 
   height: 100%;
   padding: 10px 80px;
